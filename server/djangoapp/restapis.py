@@ -54,4 +54,5 @@ def post_review(data_dict):
     except:
         print("Network exception occurred")
 
-        
+    finally:
+        print("post_review call complete!")
